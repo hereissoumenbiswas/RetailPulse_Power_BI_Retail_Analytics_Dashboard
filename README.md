@@ -46,7 +46,7 @@ What the dashboard must help the business do:
 | `Date` | Dimension table, one row per day from the first to the last sale date | `Date`, `Year`, `Month No`, `Month`, `Quarter`, `Weekday No`, `Weekday` |
 | `Customers` | Dimension table, One row per known customer who has at least one sale | `Customer_ID`, `Orders`, `Customer_Revenue`, `Last_Purchase`, `Recency_Days`, `Segment` |
 | `OrderSummary` | Dimension table, One row per invoice that has at least one sale line | `Invoice`, `Order_Value` |
-| `KPI Measures` | No data rows; holds the DAX measures | `Total Revenue`, `Total Orders`, `Total Customers`, `Total Quantity Sold`, `Total Estimated Profit`, `Average Order Value`, `Estimated Profit Margin %`, `Repeat Customers`, `New Customers`, `At Risk Customers`, `Lost Customers`, `Previous Month Revenue`, `Revenue Growth %`, `Return Value`, `Net Revenue`, `Net Units Sold` |
+| `KPI Measures` | No data rows; holds the DAX measures | `Total Revenue`, `Total Orders`, `Total Customers`, `Total Quantity Sold`, `Total Estimated Profit`, `Average Order Value`, `Estimated Profit Margin %`, `Repeat Customers`, `New Customers`, `At Risk Customers`, `Lost Customers`, `Previous Month Revenue`, `Revenue Growth %`, `Return Value` |
 
 **Notes on the data**
 
