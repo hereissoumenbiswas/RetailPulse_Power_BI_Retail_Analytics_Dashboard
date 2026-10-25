@@ -82,3 +82,16 @@ What the dashboard must help the business do:
 **Problem:** The column statistics showed the same min and max date, because they only used the first 1000 rows. About 1.3 lakh rows also have no `CustomerID`.
 
 **Fix:** Checked the full data with Earliest and Latest Card visuals (1 Dec 2009 to 9 Dec 2011). Kept the rows without a customer, because they are real sales, and left them out only of customer analysis.
+
+### Step 5: Clean the data
+
+**What I did in Power Query (the Applied Steps are: Renamed Columns, Changed Type, Trimmed Text, Removed Duplicates):**
+
+1. Renamed the columns to `Invoice`, `Stock_Code`, `Description`, `Quantity`, `Invoice_Date`, `Unit_Price`, `Customer_ID`, `Country`
+2. Set the data types
+3. Trimmed extra spaces in Description
+4. Removed duplicate rows (all columns selected)
+
+**Problem:** some instructions I followed used column names that were different from my real names, for example Invoice_No.
+
+**How I solved it:** I always checked the real column name in Power Query before writing a formula.
