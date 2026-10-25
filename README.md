@@ -56,3 +56,29 @@ What the dashboard must help the business do:
 - `Item_Type` separates real products from non-product codes such as postage and fees.
 - `Estimated_Cost` is assumed to be 65% of revenue, because the dataset has no cost column.
 - Size: 10,67,371 rows before cleaning, 10,33,036 after removing duplicates.
+
+# Step-by-step: what I did and the problems I faced
+
+### Step 1: Load the two CSV files
+
+**Problem:** The preview showed dates like `12-01-2009`, which looked wrong.
+
+**Fix:** Fixed in Step 2.
+
+### Step 2: Fix the date column
+
+**Problem:** Power BI read the month/day/year dates as day/month/year (12 January instead of 1 December). My first fix also went on the wrong column, and the Date type gave errors because the values include time.
+
+**Fix:** Set `InvoiceDate` to Date/Time with the English (United States) locale, in both files.
+
+### Step 3: Combine the two files
+
+**Problem:** The plain Append would have merged file 2 into file 1, and the other columns went back to text after I removed the automatic Changed Type step.
+
+**Fix:** Used Append Queries as New, named it `Sales`, and set the data types again.
+
+### Step 4: Check the loaded data
+
+**Problem:** The column statistics showed the same min and max date, because they only used the first 1000 rows. About 1.3 lakh rows also have no `CustomerID`.
+
+**Fix:** Checked the full data with Earliest and Latest Card visuals (1 Dec 2009 to 9 Dec 2011). Kept the rows without a customer, because they are real sales, and left them out only of customer analysis.
