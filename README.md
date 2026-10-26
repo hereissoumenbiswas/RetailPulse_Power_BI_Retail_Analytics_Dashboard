@@ -114,4 +114,4 @@ What the dashboard must help the business do:
 
 **How I solved it:** Corrected the formula using the actual Invoice column name and added the missing Hour column.
 
-Check: Verified the first row: Revenue = 83.40, Estimated Cost = 54.21, and Estimated Profit = 29.19.
+**Check:** Verified the first row: Revenue = 83.40, Estimated Cost = 54.21, and Estimated Profit = 29.19.
