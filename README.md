@@ -110,3 +110,4 @@ What the dashboard must help the business do:
 
 **Purpose:** These columns support transaction classification, date analysis, revenue and estimated profit calculations, hourly analysis, customer identification, and product filtering.
 
+**Problem:** The Transaction_Type column initially showed errors because the formula referenced an incorrect column name. The Hour column was also missing.
