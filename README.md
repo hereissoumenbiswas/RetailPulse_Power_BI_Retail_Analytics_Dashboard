@@ -107,3 +107,6 @@ What the dashboard must help the business do:
 6. Hour
 7. Customer_Known
 8. Item_Type
+
+**Purpose:** These columns support transaction classification, date analysis, revenue and estimated profit calculations, hourly analysis, customer identification, and product filtering.
+
