@@ -95,3 +95,15 @@ What the dashboard must help the business do:
 **Problem:** some instructions I followed used column names that were different from my real names, for example Invoice_No.
 
 **How I solved it:** I always checked the real column name in Power Query before writing a formula.
+
+### Step 6: Add Extra Columns
+
+**What I did in Power Query: Added these columns using Add Column → Custom Column:**
+1. Transaction_Type
+2. Invoice_Date_Only
+3. Revenue
+4. Estimated_Cost
+5. Estimated_Profit
+6. Hour
+7. Customer_Known
+8. Item_Type
