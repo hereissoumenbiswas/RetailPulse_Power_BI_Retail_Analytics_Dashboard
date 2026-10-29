@@ -132,3 +132,13 @@ Created a separate Date table in Power BI using the sales data's date range.
 | `Quarter` | Identifies the quarter of the year. |
 | `Weekday No` | Represents the weekday number, starting with Monday as 1. |
 | `Weekday` | Displays the weekday name. |
+
+**Additional Configuration:**
+
+Sorted Month by Month No to maintain the correct month order.
+
+Sorted Weekday by Weekday No to maintain the correct weekday order.
+
+Marked the table as a Date table.
+
+Created a relationship between the Date table and the Sales table using their date columns.
