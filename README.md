@@ -113,3 +113,10 @@ What the dashboard must help the business do:
 **Problem:** The Transaction_Type column initially showed errors because the formula referenced an incorrect column name. The Hour column was also missing.
 
 **How I solved it:** Corrected the formula using the actual Invoice column name and added the missing Hour column.
+
+### Step 7: Create the Date Table
+
+**Purpose:** To support time-based sales analysis and consistent date filtering across dashboard pages.
+
+**What I did:**
+Created a separate Date table in Power BI using the sales data's date range.
