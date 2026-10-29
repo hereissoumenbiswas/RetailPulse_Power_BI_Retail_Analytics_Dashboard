@@ -120,3 +120,15 @@ What the dashboard must help the business do:
 
 **What I did:**
 Created a separate Date table in Power BI using the sales data's date range.
+
+**Columns Created:**
+
+| Column Name | Description |
+|---|---|
+| `Date` | Contains a continuous sequence of dates. |
+| `Year` | Identifies the year. |
+| `Month No` | Represents the month number from 1 to 12. |
+| `Month` | Displays the full month name. |
+| `Quarter` | Identifies the quarter of the year. |
+| `Weekday No` | Represents the weekday number, starting with Monday as 1. |
+| `Weekday` | Displays the weekday name. |
