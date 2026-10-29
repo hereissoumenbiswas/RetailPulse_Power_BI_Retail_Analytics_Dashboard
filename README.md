@@ -142,3 +142,5 @@ Sorted Weekday by Weekday No to maintain the correct weekday order.
 Marked the table as a Date table.
 
 Created a relationship between the Date table and the Sales table using their date columns.
+
+**Result:** The Date table enables consistent filtering and analysis of sales by year, quarter, month, and weekday.
