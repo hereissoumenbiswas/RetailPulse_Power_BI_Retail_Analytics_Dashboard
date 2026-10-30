@@ -200,7 +200,6 @@ Created 10 interactive dashboard pages to analyze sales, customers, products, co
 - **Non-product entries:** Used `Item_Type` to exclude non-product items from product analysis.
 - **Cancelled orders affecting revenue:** Used `Net Revenue` to account for returns.
 - **Incorrect transaction-type values:** Used an appropriate revenue measure without a fixed Sale filter.
-- **Currency and axis formatting:** Corrected currency display to GBP (£) and set chart axis minimums to zero.
 
 ### Validation
 - Verified customer counts, customer segments, repeat purchase rate, and total revenue across dashboard pages.
