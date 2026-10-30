@@ -135,13 +135,10 @@ Created a separate Date table in Power BI using the sales data's date range.
 
 **Additional Configuration:**
 
-Sorted Month by Month No to maintain the correct month order.
-
-Sorted Weekday by Weekday No to maintain the correct weekday order.
-
-Marked the table as a Date table.
-
-Created a relationship between the Date table and the Sales table using their date columns.
+- Sorted Month by Month No to maintain the correct month order.
+- Sorted Weekday by Weekday No to maintain the correct weekday order.
+- Marked the table as a Date table.
+- Created a relationship between the Date table and the Sales table using their date columns.
 
 **Result:** The Date table enables consistent filtering and analysis of sales by year, quarter, month, and weekday.
 
@@ -184,3 +181,10 @@ Created a centralized `KPI Measures` table to organize DAX measures and perform 
 | Profitability | Total Estimated Cost, Total Estimated Profit, Estimated Profit Margin % |
 | Returns Analysis | Return Quantity, Return Rate %, Return Value, Net Units Sold |
 | Data Validation | Total Sales Rows, Duplicate Customer IDs |
+
+### Purpose
+- Monitor key business KPIs.
+- Analyze sales, revenue, and profitability.
+- Understand customer behavior and retention.
+- Evaluate product returns and net sales.
+- Support interactive dashboards using filters and slicers.
