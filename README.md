@@ -15,8 +15,7 @@ What the dashboard must help the business do:
 3. Know the customers: group customers by recency and number of orders (Champions, Loyal, New / Recent, At Risk, Lost), so the business can reward loyal customers and win back those at risk.
 4. Understand markets: show which countries bring revenue and how dependent the business is on the United Kingdom.
 5. Control returns: measure returned value, return rate and net revenue.
-6. Spot inventory risk: find products that have stopped selling or are slowing down, using sales patterns.
-7. Plan timing: find the peak months, weekdays and hours for staffing, stock and promotions.
+6. Plan timing: find the peak months and quarters for staffing, stock and promotions.
 
 # Data objectives
 1. Combine the two CSV files into one Sales table with no lost or doubled rows.
@@ -33,7 +32,7 @@ What the dashboard must help the business do:
 
 # Dashboard objectives
 1. Build 10 pages, each answering one business question, with a consistent theme.
-2. Add slicers for year, quarter, month and country, plus drill-through and page navigation.
+2. Add slicers for year, quarter, month and country, and page navigation.
 
 ## Data
 
@@ -91,7 +90,7 @@ What the dashboard must help the business do:
 3. Trimmed extra spaces in Description
 4. Removed duplicate rows (all columns selected)
 
-**Problem:** some instructions I followed used column names that were different from my real names, for example Invoice_No.
+**Problem:** A formula failed because it used a column name that did not exist.
 
 **How I solved it:** I always checked the real column name in Power Query before writing a formula.
 
@@ -183,3 +182,44 @@ Created a centralized `KPI Measures` table to organize DAX measures and perform 
 - Support interactive dashboards using filters and slicers.
 
 **Note:** Estimated Cost is assumed to be 65% of revenue; therefore, profit figures are estimates, not actual accounting values.
+
+## Step 10: Build Interactive Power BI Dashboards
+
+### Purpose
+Created 10 interactive dashboard pages to analyze sales, customers, products, countries, profitability, and returns.
+
+### Dashboard Pages
+
+| # | Dashboard Page |
+|---|---|
+| 1 | Executive Summary |
+| 2 | Sales Performance Analysis |
+| 3 | Customer Analysis |
+| 4 | Product Analysis |
+| 5 | Region and Country Analysis |
+| 6 | Monthly & Seasonal Analysis |
+| 7 | Customer Behavior Analysis |
+| 8 | Profit & Revenue |
+| 9 | Revenue and Transaction Analysis |
+| 10 | Sales Returns & Adjustments |
+
+### Interactive Features
+- Year, Quarter, Month, and Country slicers.
+- Cross-filtering between visuals.
+- Interactive KPI cards and charts.
+- Chart tooltips and page navigation.
+- Consistent dashboard theme and layout.
+
+### Problems & Fixes
+- **Top 10 filter issue:** Applied Top N filters to display only the highest-performing products.
+- **Non-product entries:** Used `Item_Type` to exclude non-product items from product analysis.
+- **Cancelled orders affecting revenue:** Used `Net Revenue` to account for returns.
+- **Incorrect transaction-type values:** Used an appropriate revenue measure without a fixed Sale filter.
+- **Currency and axis formatting:** Corrected currency display to GBP (£) and set chart axis minimums to zero.
+
+### Validation
+- Verified customer counts, customer segments, repeat purchase rate, and total revenue across dashboard pages.
+- Confirmed that monthly revenue totals match the overall revenue KPI.
+
+### Outcome
+Developed a 10-page interactive Power BI report that helps users explore business performance through KPIs, charts, slicers, and cross-filtering.
