@@ -174,3 +174,13 @@ Created a centralized `KPI Measures` table to organize DAX measures and perform 
 2. Select the table and choose **Modeling → New Measure**.
 3. Write the required DAX expression and press Enter.
 4. Repeat the process to create and organize all required measures.
+
+### DAX Measures Created
+
+| Analysis Area | Key Measures |
+|---|---|
+| Sales & Revenue | Total Revenue, Net Revenue, Revenue Growth %, Previous Month Revenue, Average Order Value |
+| Customer Analysis | Total Customers, New Customers, Repeat Customers, Average Customer Spend, At Risk Customers, Lost Customers |
+| Profitability | Total Estimated Cost, Total Estimated Profit, Estimated Profit Margin % |
+| Returns Analysis | Return Quantity, Return Rate %, Return Value, Net Units Sold |
+| Data Validation | Total Sales Rows, Duplicate Customer IDs |
