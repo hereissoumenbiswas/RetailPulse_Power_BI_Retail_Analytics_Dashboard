@@ -188,3 +188,5 @@ Created a centralized `KPI Measures` table to organize DAX measures and perform 
 - Understand customer behavior and retention.
 - Evaluate product returns and net sales.
 - Support interactive dashboards using filters and slicers.
+
+**Note:** Estimated Cost is assumed to be 65% of revenue; therefore, profit figures are estimates, not actual accounting values.
