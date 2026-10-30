@@ -19,23 +19,6 @@ What the dashboard must help the business do:
 5. Control returns: measure returned value, return rate and net revenue.
 6. Plan timing: find the peak months and quarters for staffing, stock and promotions.
 
-## Data objectives
-1. Combine the two CSV files into one Sales table with no lost or doubled rows.
-2. Read every date correctly (month/day/year) and verify the first and last dates.
-3. Clean the data: correct types, trimmed text, duplicates removed, sales separated from returns and adjustments, non-product items and unknown customers flagged.
-4. Record every cleaning rule with row counts before and after.
-5. Handle the rows without a Customer_ID openly: keep them for sales analysis and leave them out of customer analysis.
-
-## Modeling objectives
-1. Build a star schema with Sales as the fact table, and Date and Customers as dimension tables.
-2. Create correct one-to-many relationships with single filter direction.
-3. Create customer fields for recency, frequency and revenue, and use them to assign segments.
-4. Put every KPI in a documented DAX measure, so the same number means the same thing on every page.
-
-## Dashboard objectives
-1. Build 10 pages, each answering one business question, with a consistent theme.
-2. Add slicers for year, quarter, month and country, and page navigation.
-
 ## Data
 
 **Source:** Online Retail II, transactions of a UK online retailer from 1 December 2009 to 9 December 2011.
