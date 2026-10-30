@@ -144,3 +144,11 @@ Marked the table as a Date table.
 Created a relationship between the Date table and the Sales table using their date columns.
 
 **Result:** The Date table enables consistent filtering and analysis of sales by year, quarter, month, and weekday.
+
+### Step 8: Create the Customer Table
+
+**Purpose:** To create a separate list of unique, identified customers for customer-level analysis.
+
+**What I did:**
+Created a Customers table in Power BI using the customer information available in the Sales table.
+
