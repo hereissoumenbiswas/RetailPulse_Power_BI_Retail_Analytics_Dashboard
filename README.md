@@ -165,12 +165,6 @@ Created a Customers table in Power BI using the customer information available i
 ### Objective
 Created a centralized `KPI Measures` table to organize DAX measures and perform dynamic calculations for business analysis.
 
-### Creation Process
-1. Navigate to **Modeling → New Table** and create a table named `KPI Measures`.
-2. Select the table and choose **Modeling → New Measure**.
-3. Write the required DAX expression and press Enter.
-4. Repeat the process to create and organize all required measures.
-
 ### DAX Measures Created
 
 | Analysis Area | Key Measures |
