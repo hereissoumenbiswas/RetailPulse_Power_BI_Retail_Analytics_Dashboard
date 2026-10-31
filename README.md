@@ -201,10 +201,6 @@ Created 10 interactive dashboard pages to analyze sales, customers, products, co
 - **Cancelled orders affecting revenue:** Used `Net Revenue` to account for returns.
 - **Incorrect transaction-type values:** Used an appropriate revenue measure without a fixed Sale filter.
 
-### Validation
-- Verified customer counts, customer segments, repeat purchase rate, and total revenue across dashboard pages.
-- Confirmed that monthly revenue totals match the overall revenue KPI.
-
 ### Outcome
 Developed a 10-page interactive Power BI report that helps users explore business performance through KPIs, charts, slicers, and cross-filtering.
 
