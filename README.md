@@ -212,3 +212,6 @@ Developed a 10-page interactive Power BI report that helps users explore busines
 
 **Soumen Biswas**
 (Data Science graduate)
+
+- GitHub: (https://github.com/hereissoumenbiswas)
+- LinkedIn: (https://www.linkedin.com/in/hereissoumenbiswas/?isSelfProfile=true)
