@@ -207,3 +207,8 @@ Created 10 interactive dashboard pages to analyze sales, customers, products, co
 
 ### Outcome
 Developed a 10-page interactive Power BI report that helps users explore business performance through KPIs, charts, slicers, and cross-filtering.
+
+## Author
+
+**Soumen Biswas**
+(Data Science graduate)
